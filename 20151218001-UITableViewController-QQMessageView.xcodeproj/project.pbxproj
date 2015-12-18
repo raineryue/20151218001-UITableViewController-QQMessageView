@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D5A916C91C23F544007D7795 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A916C81C23F544007D7795 /* main.m */; };
-		D5A916CC1C23F544007D7795 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A916CB1C23F544007D7795 /* AppDelegate.m */; };
-		D5A916CF1C23F544007D7795 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A916CE1C23F544007D7795 /* ViewController.m */; };
-		D5A916D21C23F544007D7795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A916D01C23F544007D7795 /* Main.storyboard */; };
 		D5A916D41C23F544007D7795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A916D31C23F544007D7795 /* Assets.xcassets */; };
-		D5A916D71C23F544007D7795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A916D51C23F544007D7795 /* LaunchScreen.storyboard */; };
 		D5A916E21C23F544007D7795 /* _0151218001_UITableViewController_QQMessageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A916E11C23F544007D7795 /* _0151218001_UITableViewController_QQMessageViewTests.m */; };
 		D5A916ED1C23F544007D7795 /* _0151218001_UITableViewController_QQMessageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A916EC1C23F544007D7795 /* _0151218001_UITableViewController_QQMessageViewUITests.m */; };
+		D5A917051C23FB7D007D7795 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A916FD1C23FB7D007D7795 /* ViewController.m */; };
+		D5A917061C23FB7D007D7795 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A917011C23FB7D007D7795 /* AppDelegate.m */; };
+		D5A917071C23FB7D007D7795 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A917021C23FB7D007D7795 /* main.m */; };
+		D5A9170D1C23FB93007D7795 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5A9170C1C23FB93007D7795 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +35,19 @@
 
 /* Begin PBXFileReference section */
 		D5A916C41C23F543007D7795 /* 20151218001-UITableViewController-QQMessageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20151218001-UITableViewController-QQMessageView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5A916C81C23F544007D7795 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D5A916CA1C23F544007D7795 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D5A916CB1C23F544007D7795 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D5A916CD1C23F544007D7795 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D5A916CE1C23F544007D7795 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D5A916D11C23F544007D7795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5A916D31C23F544007D7795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D5A916D61C23F544007D7795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D5A916D81C23F544007D7795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5A916DD1C23F544007D7795 /* 20151218001-UITableViewController-QQMessageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20151218001-UITableViewController-QQMessageViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A916E11C23F544007D7795 /* _0151218001_UITableViewController_QQMessageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0151218001_UITableViewController_QQMessageViewTests.m; sourceTree = "<group>"; };
 		D5A916E31C23F544007D7795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5A916E81C23F544007D7795 /* 20151218001-UITableViewController-QQMessageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20151218001-UITableViewController-QQMessageViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A916EC1C23F544007D7795 /* _0151218001_UITableViewController_QQMessageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0151218001_UITableViewController_QQMessageViewUITests.m; sourceTree = "<group>"; };
 		D5A916EE1C23F544007D7795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5A916FC1C23FB7D007D7795 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D5A916FD1C23FB7D007D7795 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5A917001C23FB7D007D7795 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5A917011C23FB7D007D7795 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5A917021C23FB7D007D7795 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5A9170C1C23FB93007D7795 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +98,7 @@
 		D5A916C61C23F544007D7795 /* 20151218001-UITableViewController-QQMessageView */ = {
 			isa = PBXGroup;
 			children = (
-				D5A916CA1C23F544007D7795 /* AppDelegate.h */,
-				D5A916CB1C23F544007D7795 /* AppDelegate.m */,
-				D5A916CD1C23F544007D7795 /* ViewController.h */,
-				D5A916CE1C23F544007D7795 /* ViewController.m */,
-				D5A916D01C23F544007D7795 /* Main.storyboard */,
-				D5A916D31C23F544007D7795 /* Assets.xcassets */,
-				D5A916D51C23F544007D7795 /* LaunchScreen.storyboard */,
-				D5A916D81C23F544007D7795 /* Info.plist */,
+				D5A916FA1C23FB7D007D7795 /* Classes */,
 				D5A916C71C23F544007D7795 /* Supporting Files */,
 			);
 			path = "20151218001-UITableViewController-QQMessageView";
@@ -117,7 +107,8 @@
 		D5A916C71C23F544007D7795 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D5A916C81C23F544007D7795 /* main.m */,
+				D5A916D31C23F544007D7795 /* Assets.xcassets */,
+				D5A917081C23FB93007D7795 /* Resources */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +129,90 @@
 				D5A916EE1C23F544007D7795 /* Info.plist */,
 			);
 			path = "20151218001-UITableViewController-QQMessageViewUITests";
+			sourceTree = "<group>";
+		};
+		D5A916FA1C23FB7D007D7795 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D5A916FB1C23FB7D007D7795 /* Controllers */,
+				D5A916FE1C23FB7D007D7795 /* Models */,
+				D5A916FF1C23FB7D007D7795 /* Others */,
+				D5A917031C23FB7D007D7795 /* Utils */,
+				D5A917041C23FB7D007D7795 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D5A916FB1C23FB7D007D7795 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5A916FC1C23FB7D007D7795 /* ViewController.h */,
+				D5A916FD1C23FB7D007D7795 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D5A916FE1C23FB7D007D7795 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5A916FF1C23FB7D007D7795 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				D5A917001C23FB7D007D7795 /* AppDelegate.h */,
+				D5A917011C23FB7D007D7795 /* AppDelegate.m */,
+				D5A917021C23FB7D007D7795 /* main.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		D5A917031C23FB7D007D7795 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D5A917041C23FB7D007D7795 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5A917081C23FB93007D7795 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D5A917091C23FB93007D7795 /* Contents */,
+				D5A9170A1C23FB93007D7795 /* Images */,
+				D5A9170B1C23FB93007D7795 /* Plists */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D5A917091C23FB93007D7795 /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Contents;
+			sourceTree = "<group>";
+		};
+		D5A9170A1C23FB93007D7795 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		D5A9170B1C23FB93007D7795 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				D5A9170C1C23FB93007D7795 /* Info.plist */,
+			);
+			path = Plists;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +318,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5A916D71C23F544007D7795 /* LaunchScreen.storyboard in Resources */,
+				D5A9170D1C23FB93007D7795 /* Info.plist in Resources */,
 				D5A916D41C23F544007D7795 /* Assets.xcassets in Resources */,
-				D5A916D21C23F544007D7795 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +344,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5A916CF1C23F544007D7795 /* ViewController.m in Sources */,
-				D5A916CC1C23F544007D7795 /* AppDelegate.m in Sources */,
-				D5A916C91C23F544007D7795 /* main.m in Sources */,
+				D5A917051C23FB7D007D7795 /* ViewController.m in Sources */,
+				D5A917071C23FB7D007D7795 /* main.m in Sources */,
+				D5A917061C23FB7D007D7795 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,25 +380,6 @@
 			targetProxy = D5A916E91C23F544007D7795 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D5A916D01C23F544007D7795 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D5A916D11C23F544007D7795 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D5A916D51C23F544007D7795 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D5A916D61C23F544007D7795 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D5A916EF1C23F544007D7795 /* Debug */ = {
@@ -363,6 +418,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "20151218001-UITableViewController-QQMessageView/Resources/Plists/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -400,6 +456,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "20151218001-UITableViewController-QQMessageView/Resources/Plists/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -411,7 +468,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "20151218001-UITableViewController-QQMessageView/Info.plist";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "20151218001-UITableViewController-QQMessageView/Resources/Plists/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0151218001-UITableViewController-QQMessageView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +480,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "20151218001-UITableViewController-QQMessageView/Info.plist";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "20151218001-UITableViewController-QQMessageView/Resources/Plists/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0151218001-UITableViewController-QQMessageView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
