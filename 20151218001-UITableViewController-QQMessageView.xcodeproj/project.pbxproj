@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D56AAC001C26F05100164929 /* ChartMassageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D56AABFF1C26F05100164929 /* ChartMassageViewController.m */; };
+		D56AAC021C26F8BC00164929 /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = D56AAC011C26F8BC00164929 /* messages.plist */; };
+		D56AAC051C26F8EC00164929 /* MessagesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D56AAC041C26F8EC00164929 /* MessagesModel.m */; };
+		D56AAC081C26FB4900164929 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = D56AAC071C26FB4900164929 /* NSArray+Log.m */; };
 		D5A916D41C23F544007D7795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A916D31C23F544007D7795 /* Assets.xcassets */; };
 		D5A916E21C23F544007D7795 /* _0151218001_UITableViewController_QQMessageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A916E11C23F544007D7795 /* _0151218001_UITableViewController_QQMessageViewTests.m */; };
 		D5A916ED1C23F544007D7795 /* _0151218001_UITableViewController_QQMessageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A916EC1C23F544007D7795 /* _0151218001_UITableViewController_QQMessageViewUITests.m */; };
@@ -34,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D56AABFE1C26F05100164929 /* ChartMassageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartMassageViewController.h; sourceTree = "<group>"; };
+		D56AABFF1C26F05100164929 /* ChartMassageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartMassageViewController.m; sourceTree = "<group>"; };
+		D56AAC011C26F8BC00164929 /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = messages.plist; sourceTree = "<group>"; };
+		D56AAC031C26F8EC00164929 /* MessagesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessagesModel.h; path = "20151218001-UITableViewController-QQMessageView/Classes/Controllers/MessagesModel.h"; sourceTree = SOURCE_ROOT; };
+		D56AAC041C26F8EC00164929 /* MessagesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessagesModel.m; path = "20151218001-UITableViewController-QQMessageView/Classes/Controllers/MessagesModel.m"; sourceTree = SOURCE_ROOT; };
+		D56AAC061C26FB4900164929 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Log.h"; path = "20151218001-UITableViewController-QQMessageView/Classes/Controllers/NSArray+Log.h"; sourceTree = SOURCE_ROOT; };
+		D56AAC071C26FB4900164929 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Log.m"; path = "20151218001-UITableViewController-QQMessageView/Classes/Controllers/NSArray+Log.m"; sourceTree = SOURCE_ROOT; };
 		D5A916C41C23F543007D7795 /* 20151218001-UITableViewController-QQMessageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20151218001-UITableViewController-QQMessageView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A916D31C23F544007D7795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5A916DD1C23F544007D7795 /* 20151218001-UITableViewController-QQMessageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20151218001-UITableViewController-QQMessageViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +159,8 @@
 			children = (
 				D5A916FC1C23FB7D007D7795 /* ViewController.h */,
 				D5A916FD1C23FB7D007D7795 /* ViewController.m */,
+				D56AABFE1C26F05100164929 /* ChartMassageViewController.h */,
+				D56AABFF1C26F05100164929 /* ChartMassageViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -155,6 +168,8 @@
 		D5A916FE1C23FB7D007D7795 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D56AAC031C26F8EC00164929 /* MessagesModel.h */,
+				D56AAC041C26F8EC00164929 /* MessagesModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -172,6 +187,8 @@
 		D5A917031C23FB7D007D7795 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				D56AAC061C26FB4900164929 /* NSArray+Log.h */,
+				D56AAC071C26FB4900164929 /* NSArray+Log.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -210,6 +227,7 @@
 		D5A9170B1C23FB93007D7795 /* Plists */ = {
 			isa = PBXGroup;
 			children = (
+				D56AAC011C26F8BC00164929 /* messages.plist */,
 				D5A9170C1C23FB93007D7795 /* Info.plist */,
 			);
 			path = Plists;
@@ -320,6 +338,7 @@
 			files = (
 				D5A9170D1C23FB93007D7795 /* Info.plist in Resources */,
 				D5A916D41C23F544007D7795 /* Assets.xcassets in Resources */,
+				D56AAC021C26F8BC00164929 /* messages.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +364,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5A917051C23FB7D007D7795 /* ViewController.m in Sources */,
+				D56AAC001C26F05100164929 /* ChartMassageViewController.m in Sources */,
 				D5A917071C23FB7D007D7795 /* main.m in Sources */,
+				D56AAC081C26FB4900164929 /* NSArray+Log.m in Sources */,
+				D56AAC051C26F8EC00164929 /* MessagesModel.m in Sources */,
 				D5A917061C23FB7D007D7795 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -555,6 +577,7 @@
 				D5A916F31C23F544007D7795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5A916F41C23F544007D7795 /* Build configuration list for PBXNativeTarget "20151218001-UITableViewController-QQMessageViewTests" */ = {
 			isa = XCConfigurationList;
@@ -563,6 +586,7 @@
 				D5A916F61C23F544007D7795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5A916F71C23F544007D7795 /* Build configuration list for PBXNativeTarget "20151218001-UITableViewController-QQMessageViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -571,6 +595,7 @@
 				D5A916F91C23F544007D7795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
