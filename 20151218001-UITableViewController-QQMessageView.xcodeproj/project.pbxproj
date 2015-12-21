@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D508B7491C27976500CAC782 /* MessagesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D508B7481C27976500CAC782 /* MessagesModel.m */; };
+		D508B74C1C27979A00CAC782 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = D508B74B1C27979A00CAC782 /* NSArray+Log.m */; };
+		D508B74F1C27A5D700CAC782 /* MessageToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D508B74E1C27A5D700CAC782 /* MessageToolBarView.m */; };
 		D56AAC001C26F05100164929 /* ChartMassageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D56AABFF1C26F05100164929 /* ChartMassageViewController.m */; };
 		D56AAC021C26F8BC00164929 /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = D56AAC011C26F8BC00164929 /* messages.plist */; };
-		D56AAC051C26F8EC00164929 /* MessagesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D56AAC041C26F8EC00164929 /* MessagesModel.m */; };
-		D56AAC081C26FB4900164929 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = D56AAC071C26FB4900164929 /* NSArray+Log.m */; };
 		D5A916D41C23F544007D7795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A916D31C23F544007D7795 /* Assets.xcassets */; };
 		D5A916E21C23F544007D7795 /* _0151218001_UITableViewController_QQMessageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A916E11C23F544007D7795 /* _0151218001_UITableViewController_QQMessageViewTests.m */; };
 		D5A916ED1C23F544007D7795 /* _0151218001_UITableViewController_QQMessageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A916EC1C23F544007D7795 /* _0151218001_UITableViewController_QQMessageViewUITests.m */; };
@@ -38,13 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D508B7471C27976500CAC782 /* MessagesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesModel.h; sourceTree = "<group>"; };
+		D508B7481C27976500CAC782 /* MessagesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesModel.m; sourceTree = "<group>"; };
+		D508B74A1C27979A00CAC782 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		D508B74B1C27979A00CAC782 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		D508B74D1C27A5D700CAC782 /* MessageToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageToolBarView.h; sourceTree = "<group>"; };
+		D508B74E1C27A5D700CAC782 /* MessageToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageToolBarView.m; sourceTree = "<group>"; };
 		D56AABFE1C26F05100164929 /* ChartMassageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartMassageViewController.h; sourceTree = "<group>"; };
 		D56AABFF1C26F05100164929 /* ChartMassageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartMassageViewController.m; sourceTree = "<group>"; };
 		D56AAC011C26F8BC00164929 /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = messages.plist; sourceTree = "<group>"; };
-		D56AAC031C26F8EC00164929 /* MessagesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessagesModel.h; path = "20151218001-UITableViewController-QQMessageView/Classes/Controllers/MessagesModel.h"; sourceTree = SOURCE_ROOT; };
-		D56AAC041C26F8EC00164929 /* MessagesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessagesModel.m; path = "20151218001-UITableViewController-QQMessageView/Classes/Controllers/MessagesModel.m"; sourceTree = SOURCE_ROOT; };
-		D56AAC061C26FB4900164929 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Log.h"; path = "20151218001-UITableViewController-QQMessageView/Classes/Controllers/NSArray+Log.h"; sourceTree = SOURCE_ROOT; };
-		D56AAC071C26FB4900164929 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Log.m"; path = "20151218001-UITableViewController-QQMessageView/Classes/Controllers/NSArray+Log.m"; sourceTree = SOURCE_ROOT; };
 		D5A916C41C23F543007D7795 /* 20151218001-UITableViewController-QQMessageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20151218001-UITableViewController-QQMessageView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A916D31C23F544007D7795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5A916DD1C23F544007D7795 /* 20151218001-UITableViewController-QQMessageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20151218001-UITableViewController-QQMessageViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -168,8 +171,8 @@
 		D5A916FE1C23FB7D007D7795 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				D56AAC031C26F8EC00164929 /* MessagesModel.h */,
-				D56AAC041C26F8EC00164929 /* MessagesModel.m */,
+				D508B7471C27976500CAC782 /* MessagesModel.h */,
+				D508B7481C27976500CAC782 /* MessagesModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -187,8 +190,8 @@
 		D5A917031C23FB7D007D7795 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				D56AAC061C26FB4900164929 /* NSArray+Log.h */,
-				D56AAC071C26FB4900164929 /* NSArray+Log.m */,
+				D508B74A1C27979A00CAC782 /* NSArray+Log.h */,
+				D508B74B1C27979A00CAC782 /* NSArray+Log.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -196,6 +199,8 @@
 		D5A917041C23FB7D007D7795 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D508B74D1C27A5D700CAC782 /* MessageToolBarView.h */,
+				D508B74E1C27A5D700CAC782 /* MessageToolBarView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -366,8 +371,9 @@
 				D5A917051C23FB7D007D7795 /* ViewController.m in Sources */,
 				D56AAC001C26F05100164929 /* ChartMassageViewController.m in Sources */,
 				D5A917071C23FB7D007D7795 /* main.m in Sources */,
-				D56AAC081C26FB4900164929 /* NSArray+Log.m in Sources */,
-				D56AAC051C26F8EC00164929 /* MessagesModel.m in Sources */,
+				D508B74F1C27A5D700CAC782 /* MessageToolBarView.m in Sources */,
+				D508B74C1C27979A00CAC782 /* NSArray+Log.m in Sources */,
+				D508B7491C27976500CAC782 /* MessagesModel.m in Sources */,
 				D5A917061C23FB7D007D7795 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,7 +427,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: jinlei_yue@163.com (DHEA4F8HEJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jinlei_yue@163.com (DHEA4F8HEJ)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -444,6 +451,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "dc861c4d-8c9b-4a95-8485-227ba4cfcac1";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -465,7 +473,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: jinlei_yue@163.com (DHEA4F8HEJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jinlei_yue@163.com (DHEA4F8HEJ)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -481,6 +490,7 @@
 				INFOPLIST_FILE = "20151218001-UITableViewController-QQMessageView/Resources/Plists/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "dc861c4d-8c9b-4a95-8485-227ba4cfcac1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
