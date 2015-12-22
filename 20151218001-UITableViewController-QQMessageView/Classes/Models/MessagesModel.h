@@ -8,13 +8,20 @@
 
 #import <Foundation/Foundation.h>
 
+typedef enum {
+    MessageFromMe = 0,
+    MessageFromOther
+} MessageFrom;
+
 @interface MessagesModel : NSObject
 
 @property (nonatomic, copy) NSString *text;
 
 @property (nonatomic, copy) NSString *time;
 
-@property (nonatomic, copy) NSString *type;
+@property (nonatomic, assign) MessageFrom type;
+
+@property (nonatomic, copy) NSString *hiddenTime;
 
 - (instancetype)initMessageWithDictionary:(NSDictionary *)dictionary;
 

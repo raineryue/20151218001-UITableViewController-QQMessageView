@@ -8,7 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
+@class MessageToolBarView;
+
+@protocol MessageToolBarViewDelegate <NSObject>
+
+@required
+- (void)messageToolBarView:(MessageToolBarView *)messageToolBarView returnDidClickWithTextField:(UITextField *)textField;
+
+@end
+
 @interface MessageToolBarView : UIImageView
+
+@property (nonatomic, weak) id<MessageToolBarViewDelegate> delegate;
 
 - (instancetype)initMessageToolBarViewWithFrame:(CGRect)frame andImage:(UIImage *)image;
 

@@ -27,8 +27,13 @@
     
     __block NSMutableArray *messageArray = [NSMutableArray array];
     
-    [plistArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        [messageArray addObject:[MessagesModel messageWithDictionary:obj]];
+    [plistArray enumerateObjectsUsingBlock:^(NSDictionary *dictionary, NSUInteger idx, BOOL *stop) {
+        MessagesModel *message = messageArray.lastObject;
+        
+//        NSString hiddenTime = [NSString stringWithFormat:@"%d", [dictionary[@"time"] isEqualToString:message.time]];
+//        [dictionary setObject:isHiddenTime forKey:@"isHiddenTime"];
+        
+        [messageArray addObject:[MessagesModel messageWithDictionary:dictionary]];
     }];
     
     return messageArray;

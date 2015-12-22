@@ -13,7 +13,7 @@
 #define kViewWidth self.bounds.size.width
 #define kViewHeight self.bounds.size.height
 
-@interface MessageToolBarView ()
+@interface MessageToolBarView () <UITextFieldDelegate>
 
 /** 语音按钮 */
 @property (nonatomic, weak) UIButton *voiceButton;
@@ -78,6 +78,7 @@
         
         messageTextField.background = messageBackgroundImage;
         messageTextField.returnKeyType = UIReturnKeySend;
+        messageTextField.delegate = self;
         
         _messageTextField = messageTextField;
         [self addSubview:_messageTextField];
@@ -158,6 +159,18 @@
     CGFloat moreButtonH = kToolBarButtonHW;
     
     self.moreButton.frame = CGRectMake(moreButtonX, moreButtonY, moreButtonW, moreButtonH);
+}
+
+#pragma mark - UITextField代理方法
+/**
+ *  文本框键盘Return按钮点击时间监听
+ */
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    if ([self.delegate respondsToSelector:@selector(messageToolBarView:returnDidClickWithTextField:)]) {
+        [self.delegate messageToolBarView:self returnDidClickWithTextField:textField];
+    }
+    
+    return YES;
 }
 
 @end

@@ -12,6 +12,9 @@
 		D508B74F1C27A5D700CAC782 /* MessageToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D508B74E1C27A5D700CAC782 /* MessageToolBarView.m */; };
 		D56AAC001C26F05100164929 /* ChartMassageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D56AABFF1C26F05100164929 /* ChartMassageViewController.m */; };
 		D56AAC021C26F8BC00164929 /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = D56AAC011C26F8BC00164929 /* messages.plist */; };
+		D587541F1C28E4D800FCD44D /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D587541E1C28E4D800FCD44D /* MessageTableViewCell.m */; };
+		D58754221C28F4F400FCD44D /* MessageFrameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D58754211C28F4F400FCD44D /* MessageFrameModel.m */; };
+		D58754251C29331F00FCD44D /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = D58754241C29331F00FCD44D /* UIImage+Resize.m */; };
 		D5A916D41C23F544007D7795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A916D31C23F544007D7795 /* Assets.xcassets */; };
 		D5A916E21C23F544007D7795 /* _0151218001_UITableViewController_QQMessageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A916E11C23F544007D7795 /* _0151218001_UITableViewController_QQMessageViewTests.m */; };
 		D5A916ED1C23F544007D7795 /* _0151218001_UITableViewController_QQMessageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A916EC1C23F544007D7795 /* _0151218001_UITableViewController_QQMessageViewUITests.m */; };
@@ -48,6 +51,12 @@
 		D56AABFE1C26F05100164929 /* ChartMassageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartMassageViewController.h; sourceTree = "<group>"; };
 		D56AABFF1C26F05100164929 /* ChartMassageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartMassageViewController.m; sourceTree = "<group>"; };
 		D56AAC011C26F8BC00164929 /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = messages.plist; sourceTree = "<group>"; };
+		D587541D1C28E4D800FCD44D /* MessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableViewCell.h; sourceTree = "<group>"; };
+		D587541E1C28E4D800FCD44D /* MessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewCell.m; sourceTree = "<group>"; };
+		D58754201C28F4F400FCD44D /* MessageFrameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageFrameModel.h; sourceTree = "<group>"; };
+		D58754211C28F4F400FCD44D /* MessageFrameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageFrameModel.m; sourceTree = "<group>"; };
+		D58754231C29331F00FCD44D /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		D58754241C29331F00FCD44D /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 		D5A916C41C23F543007D7795 /* 20151218001-UITableViewController-QQMessageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20151218001-UITableViewController-QQMessageView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A916D31C23F544007D7795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5A916DD1C23F544007D7795 /* 20151218001-UITableViewController-QQMessageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20151218001-UITableViewController-QQMessageViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -173,6 +182,8 @@
 			children = (
 				D508B7471C27976500CAC782 /* MessagesModel.h */,
 				D508B7481C27976500CAC782 /* MessagesModel.m */,
+				D58754201C28F4F400FCD44D /* MessageFrameModel.h */,
+				D58754211C28F4F400FCD44D /* MessageFrameModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -192,6 +203,8 @@
 			children = (
 				D508B74A1C27979A00CAC782 /* NSArray+Log.h */,
 				D508B74B1C27979A00CAC782 /* NSArray+Log.m */,
+				D58754231C29331F00FCD44D /* UIImage+Resize.h */,
+				D58754241C29331F00FCD44D /* UIImage+Resize.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -201,6 +214,8 @@
 			children = (
 				D508B74D1C27A5D700CAC782 /* MessageToolBarView.h */,
 				D508B74E1C27A5D700CAC782 /* MessageToolBarView.m */,
+				D587541D1C28E4D800FCD44D /* MessageTableViewCell.h */,
+				D587541E1C28E4D800FCD44D /* MessageTableViewCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -368,13 +383,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D58754221C28F4F400FCD44D /* MessageFrameModel.m in Sources */,
 				D5A917051C23FB7D007D7795 /* ViewController.m in Sources */,
+				D587541F1C28E4D800FCD44D /* MessageTableViewCell.m in Sources */,
 				D56AAC001C26F05100164929 /* ChartMassageViewController.m in Sources */,
 				D5A917071C23FB7D007D7795 /* main.m in Sources */,
 				D508B74F1C27A5D700CAC782 /* MessageToolBarView.m in Sources */,
 				D508B74C1C27979A00CAC782 /* NSArray+Log.m in Sources */,
 				D508B7491C27976500CAC782 /* MessagesModel.m in Sources */,
 				D5A917061C23FB7D007D7795 /* AppDelegate.m in Sources */,
+				D58754251C29331F00FCD44D /* UIImage+Resize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
