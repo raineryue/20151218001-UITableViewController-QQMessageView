@@ -174,23 +174,14 @@
     message.text = textField.text;
     message.type = MessageFromMe;
     
-    // 2.创建一个消息Frame模型
-    MessageFrameModel *messageFrame = [[MessageFrameModel alloc] init];
-    messageFrame.message = message;
+    // 2.发送该消息
+    [self sendMessageWithMessage:message];
     
-    // 3.将消息添加到当前消息Frame模型数组中
-    [self.messageFrameArray addObject:messageFrame];
+    // 3.清空文本框
+    textField.text = nil;
     
-    // 4.刷新表格
-    [self.tableView reloadData];
-    
-    // 5.将表格滚动到最后一个数据
-    NSIndexPath *indexPath = [NSIndexPath indexPathForItem:self.messageFrameArray.count - 1 inSection:0];
-    
-    [self.tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionBottom animated:YES];
-    
-    // 6.清空文本框
-    textField.text = @"";
+    // 4.自动回复一条消息
+    [self autoAnswerMessageWithMessage:message];
 }
 
 #pragma mark - 事件监听方法
@@ -216,6 +207,47 @@
     [UIView animateWithDuration:duration animations:^{
         self.view.transform = CGAffineTransformMakeTranslation(0, keyboardY - screenHeight);
     }];
+}
+
+#pragma mark - 私有辅助方法
+/**
+ *  发送一条消息
+ */
+- (void)sendMessageWithMessage:(MessagesModel *)message {
+    // 1.创建一个消息Frame模型
+    MessageFrameModel *messageFrame = [[MessageFrameModel alloc] init];
+    messageFrame.message = message;
+    
+    // 2.将消息添加到当前消息Frame模型数组中
+    [self.messageFrameArray addObject:messageFrame];
+    
+    // 3.刷新表格
+    [self.tableView reloadData];
+    
+    // 4.将表格滚动到最后一个数据
+    NSIndexPath *indexPath = [NSIndexPath indexPathForItem:self.messageFrameArray.count - 1 inSection:0];
+    [self.tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionBottom animated:YES];
+}
+
+/**
+ *  自动回复一条消息
+ */
+- (void)autoAnswerMessageWithMessage:(MessagesModel *)message {
+    NSDictionary *dictionary = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"autoReplay" ofType:@"plist"]];
+    
+    NSString *replayText = dictionary[message.text];
+    
+    if (replayText.length > 0) {
+        // 1.创建一个消息模型
+        MessagesModel *message = [[MessagesModel alloc] init];
+        
+        message.time = @"刚刚";
+        message.text = replayText;
+        message.type = MessageFromOther;
+        
+        [self sendMessageWithMessage:message];
+    }
+
 }
 
 @end

@@ -10,6 +10,7 @@
 		D508B7491C27976500CAC782 /* MessagesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D508B7481C27976500CAC782 /* MessagesModel.m */; };
 		D508B74C1C27979A00CAC782 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = D508B74B1C27979A00CAC782 /* NSArray+Log.m */; };
 		D508B74F1C27A5D700CAC782 /* MessageToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D508B74E1C27A5D700CAC782 /* MessageToolBarView.m */; };
+		D533CB571C29976F00C38177 /* autoReplay.plist in Resources */ = {isa = PBXBuildFile; fileRef = D533CB561C29976F00C38177 /* autoReplay.plist */; };
 		D56AAC001C26F05100164929 /* ChartMassageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D56AABFF1C26F05100164929 /* ChartMassageViewController.m */; };
 		D56AAC021C26F8BC00164929 /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = D56AAC011C26F8BC00164929 /* messages.plist */; };
 		D587541F1C28E4D800FCD44D /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D587541E1C28E4D800FCD44D /* MessageTableViewCell.m */; };
@@ -48,6 +49,7 @@
 		D508B74B1C27979A00CAC782 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
 		D508B74D1C27A5D700CAC782 /* MessageToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageToolBarView.h; sourceTree = "<group>"; };
 		D508B74E1C27A5D700CAC782 /* MessageToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageToolBarView.m; sourceTree = "<group>"; };
+		D533CB561C29976F00C38177 /* autoReplay.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = autoReplay.plist; sourceTree = "<group>"; };
 		D56AABFE1C26F05100164929 /* ChartMassageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartMassageViewController.h; sourceTree = "<group>"; };
 		D56AABFF1C26F05100164929 /* ChartMassageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartMassageViewController.m; sourceTree = "<group>"; };
 		D56AAC011C26F8BC00164929 /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = messages.plist; sourceTree = "<group>"; };
@@ -247,6 +249,7 @@
 		D5A9170B1C23FB93007D7795 /* Plists */ = {
 			isa = PBXGroup;
 			children = (
+				D533CB561C29976F00C38177 /* autoReplay.plist */,
 				D56AAC011C26F8BC00164929 /* messages.plist */,
 				D5A9170C1C23FB93007D7795 /* Info.plist */,
 			);
@@ -356,6 +359,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D533CB571C29976F00C38177 /* autoReplay.plist in Resources */,
 				D5A9170D1C23FB93007D7795 /* Info.plist in Resources */,
 				D5A916D41C23F544007D7795 /* Assets.xcassets in Resources */,
 				D56AAC021C26F8BC00164929 /* messages.plist in Resources */,

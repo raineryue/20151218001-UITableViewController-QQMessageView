@@ -28,12 +28,14 @@
     __block NSMutableArray *messageArray = [NSMutableArray array];
     
     [plistArray enumerateObjectsUsingBlock:^(NSDictionary *dictionary, NSUInteger idx, BOOL *stop) {
+        NSMutableDictionary *mutableDictionary = [NSMutableDictionary dictionaryWithDictionary:dictionary];
+        
         MessagesModel *message = messageArray.lastObject;
         
-//        NSString hiddenTime = [NSString stringWithFormat:@"%d", [dictionary[@"time"] isEqualToString:message.time]];
-//        [dictionary setObject:isHiddenTime forKey:@"isHiddenTime"];
+        NSString *hiddenTime = [NSString stringWithFormat:@"%d", [dictionary[@"time"] isEqualToString:message.time]];
+        [mutableDictionary setObject:hiddenTime forKey:@"hiddenTime"];
         
-        [messageArray addObject:[MessagesModel messageWithDictionary:dictionary]];
+        [messageArray addObject:[MessagesModel messageWithDictionary:mutableDictionary]];
     }];
     
     return messageArray;
@@ -44,7 +46,7 @@
 }
 
 - (NSString *)description {
-    return [NSString stringWithFormat:@"<%@: %p> [text:%@, time:%@, type:%@]", self.class, self, self.text, self.time, self.type];
+    return [NSString stringWithFormat:@"<%@: %p> [text:%@, time:%@, type:%d]", self.class, self, self.text, self.time, self.type];
 }
 
 @end

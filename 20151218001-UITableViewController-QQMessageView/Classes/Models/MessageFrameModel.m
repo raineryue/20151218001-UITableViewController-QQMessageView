@@ -22,7 +22,7 @@
     _message = message;
     
     // 时间
-    if ([message.hiddenTime boolValue]) {
+    if (![message.hiddenTime boolValue]) {
         CGFloat timeX = 0;
         CGFloat timeY = 0;
         CGFloat timeW = [UIScreen mainScreen].bounds.size.width;
